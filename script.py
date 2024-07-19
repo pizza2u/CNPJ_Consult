@@ -20,7 +20,7 @@ def type(natureza_juridica): #tipo de natureza (Municipal, Estadual, Federal)
         descricao = natureza_juridica.lower()
         if 'município' in descricao:
             return 'Municipal'
-        elif 'estadual' in descricao:
+        elif 'estadual' or 'estado' in descricao:
             return 'Estadual'
         elif 'federal' in descricao:
             return 'Federal'
