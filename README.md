@@ -13,3 +13,8 @@ This project is a Python application that collects and stores CNPJ information f
 - type(natureza_juridica): Function that determines the type of legal nature (Municipal, State, Federal).
 - save(cnpj, data, file): Function that saves CNPJ data into a CSV file.
 - menu(): Function that displays the menu for the user to enter the CNPJ or exit the program.
+
+### Methods
+
+- open the executable file [here]()
+- Or run script.py
