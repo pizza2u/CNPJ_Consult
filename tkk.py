@@ -85,7 +85,7 @@ def file():
 root = tk.Tk()
 root.title("Consulta CNPJ")
 
-file_csv = "DADOS2.csv"
+file_csv = "DADOS.csv"
 
 tk.Label(root, text="Digite o CNPJ (somente números):").pack(ipadx=80, ipady=20)
 entry_cnpj = tk.Entry(root, borderwidth=2, relief="solid",width=20)
