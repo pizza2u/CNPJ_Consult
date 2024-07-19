@@ -18,10 +18,15 @@ This project is a Python application that collects and stores CNPJ information f
 
 - Download and open the executable file [here](https://github.com/pizza2u/CNPJ_Consult/blob/type2/dist/tkintertest.exe) - In moment, doesnt work.
 > You can do this:
+> 
 > 0º git clone
+> 
 > 1º pip install pyinstaller;
+> 
 > 2º pyinstaller -onefile --windowed tkintertest.py
+> 
 > 3º You must find the .exe in path ´dist´
+> 
 - Or run script.py
 
 - Check the legal nature codes [here](https://www.gov.br/pncp/pt-br/acesso-a-informacao/manuais/ManualPNCPAPIConsultasVerso1.0.pdf)
