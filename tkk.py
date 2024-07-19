@@ -19,9 +19,9 @@ def data(cnpj):
 def type(natureza_juridica): #caso de falha ou limites atingidos
     if natureza_juridica:
         descricao = natureza_juridica.lower()
-        if 'municipal' in descricao:
+        if 'município' in descricao:
             return 'Municipal'
-        elif 'estadual' in descricao:
+        elif 'estadual' or 'estado' in descricao:
             return 'Estadual'
         elif 'federal' in descricao:
             return 'Federal'
