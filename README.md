@@ -5,3 +5,10 @@ This project is a Python application that collects and stores CNPJ information f
 ### Requirements
 - Python 3.x
 - Python libraries: requests, csv, tqdm, tkinter
+
+
+### Functionalities
+- data (cnpj): Function that makes a request to the public API to obtain information about the provided CNPJ.
+- type(natureza_juridica): Function that determines the type of legal nature (Municipal, State, Federal).
+- save(cnpj, data, file): Function that saves CNPJ data into a CSV file.
+- menu(): Function that displays the menu for the user to enter the CNPJ or exit the program.
