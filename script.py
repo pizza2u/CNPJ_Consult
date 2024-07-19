@@ -18,7 +18,7 @@ def data(cnpj):
 def type(natureza_juridica): #tipo de natureza (Municipal, Estadual, Federal)
     if natureza_juridica:
         descricao = natureza_juridica.lower()
-        if 'municipal' in descricao:
+        if 'municipal' or 'Município' in descricao:
             return 'Municipal'
         elif 'estadual' in descricao:
             return 'Estadual'
