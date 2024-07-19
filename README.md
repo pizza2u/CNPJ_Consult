@@ -23,7 +23,7 @@ This project is a Python application that collects and stores CNPJ information f
 > 
 > 1º pip install pyinstaller;
 > 
-> 2º pyinstaller -onefile --windowed tkintertest.py
+> 2º pyinstaller -onefile --windowed tkk.py
 > 
 > 3º You must find the .exe in path ´dist´
 > 
