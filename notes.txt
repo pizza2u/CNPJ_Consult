@@ -1,0 +1,8 @@
+A principal diferença da main para type2 está na forma de salvar cabeçalho (PARA ARQUIVOS TKINTER E EXE)
+
+- MAIN: Se um arquivo existente for selecionado, será criado um cabeçalho para as informações solicitadas
+independentemente se existir algo nas linhas anteriores ou não
+
+-TYPE2: Se um arquivo existente for selecionado, não será criado um cabeçalho.
+
+OBS: Os arquivos script.py em ambas branchs são iguais.
