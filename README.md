@@ -16,5 +16,7 @@ This project is a Python application that collects and stores CNPJ information f
 
 ### Methods
 
-- open the executable file [here]()
+- Download and open the executable file [here](https://github.com/pizza2u/CNPJ_Consult/blob/main/dist/tkk.exe)
 - Or run script.py
+
+- Check the legal nature codes [here](https://www.gov.br/pncp/pt-br/acesso-a-informacao/manuais/ManualPNCPAPIConsultasVerso1.0.pdf)
