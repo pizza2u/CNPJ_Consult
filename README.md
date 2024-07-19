@@ -1,3 +1,3 @@
-- Requisitos
+#### Requisitos
 - Python 3.x
-Bibliotecas Python: requests, csv, tqdm
+- Bibliotecas Python: requests, csv, tqdm
