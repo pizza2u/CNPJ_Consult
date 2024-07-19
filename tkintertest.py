@@ -41,8 +41,6 @@ def save(cnpj, dados, arquivo):
             est = dados.get('estabelecimento', {})
             cidade = est.get('cidade', {})
             estado = est.get('estado', {})
-            inscricoes_estaduais = dados.get('inscricoes_estaduais', [{}])[0]
-            simples = dados.get('simples', {})
             
             writer.writerow([
                 cnpj,   # CNPJ digitado pelo usuário
