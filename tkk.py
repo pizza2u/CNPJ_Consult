@@ -69,23 +69,23 @@ def source():
     cnpj = entry_cnpj.get()
     dados = data(cnpj)
     if dados:
-        save(cnpj, dados, arquivo_csv)
+        save(cnpj, dados, file_csv)
         messagebox.showinfo("Sucesso", "Dados salvos com sucesso!")
     else:
         messagebox.showerror("Erro", "Não foi possível obter os dados do CNPJ.")
 
 def file():
-    global arquivo_csv
-    arquivo_csv = filedialog.asksaveasfilename(defaultextension=".csv",
+    global file_csv
+    file_csv = filedialog.asksaveasfilename(defaultextension=".csv",
                                              filetypes=[("CSV files", "*.csv")],
                                              title="Escolha o arquivo CSV")
-    label_arquivo.config(text=f"Arquivo: {arquivo_csv}")
+    label_arquivo.config(text=f"Arquivo: {file_csv}")
 
 # INTERFACE TKINTER
 root = tk.Tk()
 root.title("Consulta CNPJ")
 
-file_csv = "DADOS.csv"
+file_csv = "DADOS2.csv"
 
 tk.Label(root, text="Digite o CNPJ (somente números):").pack(ipadx=80, ipady=20)
 entry_cnpj = tk.Entry(root, borderwidth=2, relief="solid",width=20)
