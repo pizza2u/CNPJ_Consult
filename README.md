@@ -5,6 +5,7 @@ This project is a Python application that collects and stores CNPJ information f
 ### Requirements
 - Python 3.x
 - Python libraries: requests, csv, tqdm, tkinter
+- [API](https://www.cnpj.ws/docs/intro)
 
 
 ### Functionalities
